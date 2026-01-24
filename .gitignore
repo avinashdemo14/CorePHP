@@ -1,0 +1,11 @@
+# Ignore specific log file
+testData.log
+
+# Ignore entire folder (replace 'folderName' with your actual folder)
+excludeFiles/
+
+# Common ignores (optional, but useful)
+*.log
+*.tmp
+*.swp
+.DS_Store
