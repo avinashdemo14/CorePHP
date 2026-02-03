@@ -1,5 +1,5 @@
 {
-  "name": "CorePHP/CorePHP",
+  "name": "avinash/corephp",
   "description": "A simple PHP project",
   "type": "project",
   "require": {
