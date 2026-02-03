@@ -25,5 +25,8 @@ steps:
 - script: composer --version
   displayName: 'Check Composer version'
 
-- script: composer install --no-interaction --prefer-dist
+- script: |
+    cd src   # adjust this to where composer.json lives
+    composer install --no-interaction --prefer-dist
   displayName: 'composer install'
+
