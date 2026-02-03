@@ -1,5 +1,5 @@
 {
-  "name": "CorePHP",
+  "name": "CorePHP/CorePHP",
   "description": "A simple PHP project",
   "type": "project",
   "require": {
