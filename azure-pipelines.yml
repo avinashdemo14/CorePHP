@@ -25,12 +25,8 @@ steps:
 - script: composer --version
   displayName: 'Check Composer version'
 
-- script: ls -la
-  displayName: 'List files in working directory'
-
-
 - script: |
-    cd src   # adjust this to where composer.json lives
+    ls -la   # confirm composer.json is present
     composer install --no-interaction --prefer-dist
-  displayName: 'composer install'
+  displayName: 'Install PHP dependencies'
 
