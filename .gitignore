@@ -6,6 +6,7 @@ excludeFiles/
 
 # Common ignores (optional, but useful)
 *.log
+*.cache
 *.tmp
 *.swp
 .DS_Store
